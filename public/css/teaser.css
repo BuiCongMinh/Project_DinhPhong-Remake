@@ -359,13 +359,13 @@ body {
 }
 
 .frame-1 .frame-container .frame-theme.mobile {
-  max-width: 100%; /* Đảm bảo div không vượt quá chiều rộng của màn hình */
-  height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
+  width: 100%; 
+  height: auto; 
   display: none;
 }
 
 .frame-1 .frame-container .frame-theme img {
-  max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của div */
+  width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của div */
   height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
   display: block; /* Loại bỏ khoảng trắng dưới ảnh nếu có */
   object-fit: cover; /* Đảm bảo ảnh giữ đúng tỷ lệ khi responsive */
