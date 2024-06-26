@@ -397,7 +397,7 @@ body {
 .frame-1 .frame-container .frame-btn {
   cursor: pointer;
   position: absolute;
-  top: 70%;
+  top: 77%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   display: -webkit-box;
