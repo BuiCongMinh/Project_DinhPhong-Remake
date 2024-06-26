@@ -19,29 +19,3 @@ toggleRightNav.addEventListener('click', () => {
   toggleRightNav.classList.toggle('out');
 })
 
-
-// sector-6 
-$('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav:true,
-  autoplay:true,
-  autoplayTimeout:3000,
-  autoplayHoverPause:true,
-  autoplaySpeed:1500,
-  dotsSpeed:1500,
-  navSpeed:1500,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:1
-      },
-      1000:{
-          items:1
-      }
-  }
-})
-
-
