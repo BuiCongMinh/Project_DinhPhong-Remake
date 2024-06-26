@@ -70,13 +70,12 @@ body {
 }
 
 .menu .link-logo {
-  margin-top: 2.5vw;
   width: 12% !important;
 }
 
 .menu .link-logo img {
   width: auto;
-  height: 4.5vw;
+  height: 5.5vw;
   transition-duration: 0.5s;
 }
 
@@ -644,10 +643,11 @@ body {
   .header .menu-pc .link-logo {
     display: flex;
     margin-top: 0;
+    margin-left: 10px;
   }
 
   .header .menu-pc .link-logo img {
-    height: 7vw;
+    height: 10vw;
   }
 
   .menu-pc .toggle-menu .active {
@@ -672,12 +672,11 @@ body {
     height: 14vh
   }
   .frame-1 .frame-container .frame-btn img {
-    height: 10.5vw;
+    height: 13.6vw;
   }
   .frame-1 .frame-container .frame-btn{
     flex-direction: column;
-    gap: 10.9vw;
-    top: 60%;
+    top: 82%;
   }
 
   .frame-1 .frame-container .frame-theme.mobile{
@@ -762,9 +761,9 @@ body {
     margin-top: 0;
   }
 
-  .header .menu-pc .link-logo img {
+  /* .header .menu-pc .link-logo img {
     height: 7vw;
-  }
+  } */
 
   .menu-pc .toggle-menu .active {
     display: flex;
@@ -797,8 +796,6 @@ body {
   }
   .frame-1 .frame-container .frame-btn{
     flex-direction: column;
-    gap: 10.9vw;
-    top: 60%;
   }
 
 }
