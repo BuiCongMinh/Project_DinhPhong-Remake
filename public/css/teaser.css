@@ -349,14 +349,6 @@ body {
   position: relative;
 }
 
-.frame-1 .frame-container .frame-theme {
-  /* width: 100%;
-  height: 100%;
-  cursor: pointer;
-  overflow: hidden; */
-
-}
-
 .frame-1 .frame-container .frame-theme.mobile {
   width: 100%; 
   height: auto; 
@@ -364,10 +356,10 @@ body {
 }
 
 .frame-1 .frame-container .frame-theme img {
-  width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của div */
-  height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
-  display: block; /* Loại bỏ khoảng trắng dưới ảnh nếu có */
-  object-fit: cover; /* Đảm bảo ảnh giữ đúng tỷ lệ khi responsive */
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  object-fit: cover;
 }
 
 
@@ -741,7 +733,6 @@ body {
 
 @media only screen and (max-width: 920px) {
 
-  /* header  */
   .header {
     position: fixed;
   }
@@ -761,10 +752,6 @@ body {
     margin-top: 0;
   }
 
-  /* .header .menu-pc .link-logo img {
-    height: 7vw;
-  } */
-
   .menu-pc .toggle-menu .active {
     display: flex;
   }
@@ -773,7 +760,6 @@ body {
     transform: translateX(0vw);
   }
 
-  /* side-bar */
   .app .sidebar {
     display: none !important;
   }
@@ -783,7 +769,7 @@ body {
 
 
 @media only screen and (max-width: 430px) {
-  /* sector-1  */
+
   .frame-1 .frame-container .frame-sologan{
     width: 80%; 
     top: 37%;
