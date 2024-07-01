@@ -1,4 +1,3 @@
-AOS.init();
 let listImage = document.querySelector(".list-images");
 let imgs = document.querySelectorAll(".slide-item");
 let btnLeft = document.querySelector(".btn-left");
