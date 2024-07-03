@@ -1,13 +1,1 @@
-let closeNavbar = document.querySelector('.close-navbar');
-let bars = document.querySelector('.fa-bars');
-let menuMobile = document.querySelector('.menu-mobile');
-let toggleMenu = document.querySelector('.toggle-menu');
-
-// show side-bar 
-toggleMenu.addEventListener('click',()=>{
-  closeNavbar.classList.toggle('active') 
-  bars.classList.toggle('active')
-  menuMobile.classList.toggle('show')
-});
-
-
+let closeNavbar=document.querySelector(".close-navbar"),bars=document.querySelector(".fa-bars"),menuMobile=document.querySelector(".menu-mobile"),toggleMenu=document.querySelector(".toggle-menu");toggleMenu.addEventListener("click",()=>{closeNavbar.classList.toggle("active"),bars.classList.toggle("active"),menuMobile.classList.toggle("show")});
