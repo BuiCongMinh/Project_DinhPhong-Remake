@@ -1,1 +1,20 @@
-let listImage=document.querySelector(".list-images"),imgs=document.querySelectorAll(".slide-item"),btnLeft=document.querySelector(".btn-left"),btnRight=document.querySelector(".btn-right"),item1=document.querySelector(".item-1"),indexItems=document.querySelectorAll(".index-item"),rightNav=document.querySelector("#rightNav"),toggleRightNav=document.querySelector("#toggle-rightNav"),current=0,length=imgs.length;toggleRightNav.addEventListener("click",()=>{rightNav.classList.toggle("hide-sidebar"),toggleRightNav.classList.toggle("out")});
+let listImage = document.querySelector(".list-images");
+let imgs = document.querySelectorAll(".slide-item");
+let btnLeft = document.querySelector(".btn-left");
+let btnRight = document.querySelector(".btn-right");
+let item1 = document.querySelector(".item-1");
+let indexItems = document.querySelectorAll(".index-item");
+
+// side-bar 
+let rightNav = document.querySelector('#rightNav');
+let toggleRightNav = document.querySelector('#toggle-rightNav');
+
+
+let current = 0;
+let length = imgs.length;
+
+toggleRightNav.addEventListener('click', () => {
+  rightNav.classList.toggle('hide-sidebar');
+  toggleRightNav.classList.toggle('out');
+})
+
