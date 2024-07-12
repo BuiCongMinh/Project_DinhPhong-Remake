@@ -1,6 +1,11 @@
-OwlCarousel2-2.3.4
-testsector
-bootstrap-4.0.0
-New folder (11)
-img-coppy
-
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+node_modules/
+bin/
+obj/
+.vs/
